@@ -85,6 +85,8 @@ More...
 
 ### HOI Image Generation
 
+- InteractDiffusion: Interaction-Control for Text-to-Image Diffusion Model (CVPR 2024) [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Hoe_InteractDiffusion_Interaction_Control_in_Text-to-Image_Diffusion_Models_CVPR_2024_paper.html), [[Project]](https://jiuntian.github.io/interactdiffusion/)
+
 - Person in Place: Generating Associative Skeleton-Guidance Maps for Human-Object Interaction Image Editing (CVPR 2024) [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_Person_in_Place_Generating_Associative_Skeleton-Guidance_Maps_for_Human-Object_Interaction_CVPR_2024_paper.pdf), [[Code]](https://github.com/YangChangHee/CVPR2024_Person-In-Place_RELEASE)
 
 - VirtualModel: Generating Object-ID-retentive Human-object Interaction Image by Diffusion Model for E-commerce Marketing (arXiv 2024.5) [[Paper]](https://arxiv.org/pdf/2405.09985) [[Code]](https://aigcdesigngroup.github.io/replace-anything/)
@@ -137,6 +139,8 @@ More...
 More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
+
+- GeoHOI (arXiv 2024), [[Paper]](https://arxiv.org/pdf/2406.18691), [[Code]](https://github.com/zhumanli/GeoHOI)
 
 - SICHOI (CVPR 2024), [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Luo_Discovering_Syntactic_Interaction_Clues_for_Human-Object_Interaction_Detection_CVPR_2024_paper.pdf)
 
@@ -754,6 +758,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[SBM](https://link.springer.com/chapter/10.1007/978-981-99-8429-9_5)|PRCV2023|34.92 |31.67| 35.85| 38.79| 35.43| 39.60|
 |[ (w/ CLIP)](https://github.com/YueLiao/)|CVPR2022|34.95 |31.18| 36.08| 38.22| 34.36| 39.37|
 |[SOV-STG (res101)](https://arxiv.org/pdf/2307.02291.pdf)|arXiv2023|35.01 |30.63 |36.32 |37.60 |32.77 |39.05|
+|[GeoHOI](https://github.com/zhumanli/GeoHOI)|arXiv2024| 35.05 |33.01| 35.71| 37.12| 34.79| 37.97|
 |[PartMap](https://github.com/enlighten0707/Body-Part-Map-for-Interactiveness)|ECCV2022|35.15 |33.71| 35.58| 37.56| 35.87| 38.06|
 |[GFIN](https://www.sciencedirect.com/science/article/pii/S0893608023006251?via%3Dihub#fig1)|NN2023|35.28	|31.91|	36.29|	38.80|	35.48|	39.79|
 |[CLIP4HOI](https://openreview.net/pdf?id=nqIIWnwe73) |NeurIPS2023|35.33 | 33.95| 35.74| 37.19| 35.27| 37.77|
@@ -1087,6 +1092,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[SCTC](https://arxiv.org/pdf/2401.05676.pdf)|AAAI2024|68.2|
 |[HCVC](https://arxiv.org/pdf/2311.16475.pdf)|arXiv2023|68.4|
 |[MUREN](http://cvlab.postech.ac.kr/research/MUREN/)|CVPR2023|68.8|
+|[GeoHOI](https://github.com/zhumanli/GeoHOI)|arXiv2024| 69.4|
 |[GFIN](https://www.sciencedirect.com/science/article/pii/S0893608023006251?via%3Dihub#fig1)|NN2023|70.1|
 |[SICHOI](https://openaccess.thecvf.com/content/CVPR2024/papers/Luo_Discovering_Syntactic_Interaction_Clues_for_Human-Object_Interaction_Detection_CVPR_2024_paper.pdf)|CVPR2024|71.1|
 |[RLIPv2-ParSeDA w/ extra data](https://github.com/JacobYuan7/RLIPv2)|ICCV2023|**72.1**|
